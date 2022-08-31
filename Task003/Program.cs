@@ -64,4 +64,5 @@ PrintMatrix(matrixB);
 // };
 Console.WriteLine();
 int[,] matrixResult = MatrixMultiplication(matrixA, matrixB);
+Console.WriteLine($"Произведение двух матриц = ");
 PrintMatrix(matrixResult);
